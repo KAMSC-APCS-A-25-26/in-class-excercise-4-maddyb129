@@ -5,7 +5,7 @@ public class GuessingGame {
         // TODO: Prompt the user with a welcome message
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to the Guessing Game!");
-        System.out.println("I'm thinking of a number between 1 and 100");
+        System.out.println("I'm thinking of a number between 1 and 100.");
         int num = 0;
         Random r = new Random();
         // TODO: Generate a random secret number between 1 and 100 (inclusive)
